@@ -8,7 +8,6 @@ const int garbageTrig = 17;
 const int garbageEcho = 16;
 
 const int servoPin = 13;
- -------- COMPONENTS --------
 Servo lid;
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 const float OPEN_DISTANCE = 20.0;
